@@ -1,12 +1,16 @@
 
-.container {
-    background-color: orange;
-    color: white;
+body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.container-fluid {
-    background-color: purple;
-    color: white;
+.container {
+    background-color: orange;
 }
 
 .bg-red {
@@ -15,4 +19,8 @@
 
 .bg-blue {
     background-color: rgb(12, 59, 135);
+}
+
+.row {
+    height: 50vh;
 }
